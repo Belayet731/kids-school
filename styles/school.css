@@ -1,0 +1,140 @@
+
+
+/* Reset styles */
+.quicksand-normal{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: quicksand-normal;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+
+}
+
+/* Logo container */
+.logo-container {
+  display: flex;
+  align-items: center; /* Align logo and text */
+  position: left; /* Allows precise placement */
+
+}
+
+.logo {
+  width: 40px; /* Adjust logo size */
+  height: auto;
+  margin-right: 10px; /* Space between logo and site name */
+  margin-left: 141px;
+  justify-content: space-between;
+}
+
+.site-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: black; /* Text color */
+}
+
+
+nav ul li{
+  display: flex;
+  align-items: center;  
+  list-style: none;
+  justify-content: space-between;
+  position:relative; /* Allows precise placement */
+  margin-right: 50px; /* Space between logo and site name */
+  margin-left: 80px;
+}
+nav ul{
+  display: flex;
+  align-items: center;  
+}
+
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.dark-1{
+  color: orange;
+}
+.dark-2{
+  color:skyblue;
+}
+.dark-3{
+  color: skyblue; 
+}
+.dark-4{
+  color: #5D58EF;
+}
+
+/* banner styles */
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  margin: 0 35px 0 200;
+  
+}
+.banner-content{
+ max-width: 540px;
+ text-decoration: none;
+
+} 
+.banner-heading{
+ text-decoration: none;
+ font-size: 56px;
+ font-weight: bold;
+
+}
+
+.banner-description{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: regular;
+  
+}
+/* shared style */
+
+.text-primary{
+  text-decoration: none;
+  color:black;
+}
+
+
+.banner-profile-pic{
+  width: 469px;
+}
+.btn-primary-1{
+  background-color: black; /* Black button */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 10px 1px;
+  
+}
+
+/* Contact button */
+.btn-primary{
+  background-color: orange; /* Orange button */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  position:relative; /* Allows precise placement */
+  margin-right: 141px; /* Space between logo and site name */
+  margin-left: 186px;
+  
+}
+
+
+
+
+
